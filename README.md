@@ -37,7 +37,7 @@
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | Deadlines | 3.01  Linear Regression Lab |  | Blog Post 2 / 3.02 Regularization Lab|  | Project 2 |
-|Submission| [3.01 EW Linear  Regression lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/linear-regression-sacramento.ipynb)|||||
+|Submission| [3.01 EW Linear  Regression lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/linear-regression-sacramento.ipynb)||[3.02 EW Train/Test P1](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/part_1-train-test-cross-validation.ipynb) + [3.02 EW Regularization](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/part_2-kobe-shots-made.ipynb)|||
 
 #### Week 5 - Web Scraping, APIs and NLP (10-14 December)
 
