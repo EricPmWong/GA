@@ -44,7 +44,7 @@
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | Deadlines |4.01 Classification Model Comparison  | 4.02 Classification Model Evaluation |  |  | Quiz 3 |
-|Submission||||||
+|Submission|[4.01 Model Comparison](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.01%20Model%20Comparison.ipynb)|[4.02 Kidneys](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.02%20CKD.ipynb) ||||
 
 #### Week 6 - Advanced Supervised Learning (17-21 December)
 
