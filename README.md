@@ -1,177 +1,121 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
 
-Welcome to Project 2! It's time to start modeling.
 
-**Primary Learning Objectives:**
-1. Creating and iteratively refining a regression model
-2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process
-3. Providing business insights through reporting and presentation.
 
-You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale.
 
-The Ames Housing Dataset is an exceptionally detailed and robust dataset with over 70 columns of different features relating to houses.
 
-Secondly, we are hosting a competition on Kaggle to give you the opportunity to practice the following skills:
+# ![GA Logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) ERIC WONG Submissions:  
 
-- Refining models over time
-- Use of train-test split, cross-validation, and data with unknown values for the target to simulate the modeling process
-- The use of Kaggle as a place to practice data science
+#### Week 1 - Getting Started: Python for Data Science (5-9 November)
 
-As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.**
+|         | Monday     | Tuesday    | Wednesday  | Thursday| Friday  |
+|---------|------------|------------|------------|---------|---------|
+| Deadlines |  |  |  |  | Quiz 1 |
 
-## Set-up
+#### Week 2 - Exploratory Data Analysis (12-16 November)
 
-Before you begin working on this project, please do the following:
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines | | 1.01 Pokemon Lab  |  |1.02 Distributions Lab  | Blog Post 1 |
+|Submission||[EW Pokemon](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Python_Lab_Pokemon_starter.ipynb) || [EW Distributions](<https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Lab%20Distributions%20starter-code.ipynb>)| [EW Blog Post](<https://www.linkedin.com/pulse/hr-find-right-data-role-eric-wong/>)|
 
-1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. **IMPORTANT**: Click this link ([Regression Challenge Sign Up](https://www.kaggle.com/t/cf68f4a276f44b59a3c6c843dbf9ed1e)) to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge)
-4. Review the [data description](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
+#### Week 2-plus - Exploratory Data Analysis (continued) (19-23 November)
 
-## The Modeling Process
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  | Project 1  /2.01 Titanic EDA|  |  |  |
+|Submission||[EW Titanic](<https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Titanic.ipynb>) + [EW P1 Slides](<https://docs.google.com/presentation/d/1y1D-FF6_qCc3mopbcQQsiLIK1ml_b3oktM4KnkJdUxI/edit?usp=sharing>) +  [Project1 Code](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Project1.ipynb)|||||
 
-1. The train dataset has all of the columns that you will need to generate and refine your models. The test dataset has all of those columns except for the target that you are trying to predict in your Regression model.
-2. Generate your regression model using the training data. We expect that within this process, you'll be making use of:
-    - train-test split
-    - cross-validation / grid searching for hyperparameters
-    - strong exploratory data analysis to question correlation and relationship across predictive variables
-    - code that reproducibly and consistently applies feature transformation (such as the preprocessing library)
-3. Predict the values for your target column in the test dataset and submit your predictions to Kaggle to see how your model does against unknown data.
-    - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your CSVs correctly!
-    - **You are limited to models you've learned in class**. In other words, you cannot use XGBoost, Neural Networks or any other advanced model for this project.
-4. Evaluate your models!
-    - consider your evaluation metrics
-    - consider your baseline score
-    - how can your model be used for inference?
-    - why do you believe your model will generalize to new data?
+#### Week 3 - Regression (26-30 November)
 
-## Submission
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines | 2.02 Pandas Concat |  |  |  | Quiz 2 |
+|Submission|[2.02 Pandas Concat Lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/pandas_concatenation_lab.ipynb) + [3.02 Stat Inference Lab ](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/2.03%20Stat%20Infrence%20Lab.ipynb)||||||
 
-**Materials must be submitted by the beginning of class on December 7.**
+#### Week 4 - Classification (3-7 December)
 
-Your technical report will be hosted on Github Enterprise. Make sure it includes:
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines | 3.01  Linear Regression Lab |  | Blog Post 2 / 3.02 Regularization Lab|  | Project 2 |
+|Submission| [3.01 EW Linear  Regression lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/linear-regression-sacramento.ipynb)||[3.02 EW TrainTest/Cross](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/part_1-train-test-cross-validation.ipynb)  + [3.02 Kobe](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/part_2-kobe-shots-made.ipynb) ||[P2 Code](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Attempt3P2.ipynb) + [P2 Readme](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/ReadMeProject2ew.md)|
 
-- A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis and models (renamed to describe your project)
-- At least one successful prediction submission on [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/leaderboard)" tab.
-- Data files
-- Presentation slides
-- Any other necessary files (images, etc.)
+#### Week 5 - Web Scraping, APIs and NLP (10-14 December)
 
-**Check with your local instructor for how they would like you to submit your repo for review.**
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |4.01 Classification Model Comparison  | 4.02 Classification Model Evaluation |  |  | Quiz 3 |
+|Submission||||||
 
----
+#### Week 6 - Advanced Supervised Learning (17-21 December)
 
-## Presentation Structure
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  |5.01 NLP Lab  | Blog Post 3 |  | Project 3 / 5.02 Scraping Lab|
+|Submission||||||
 
-- **Must be within time limit established by local instructor.**
-- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
-- Consider the audience. **Check with your local instructor for direction**.
-- Start with the **data science problem**.
-- Use visuals that are appropriately scaled and interpretable.
-- Talk about your procedure/methodology (high level).
-- Talk about your primary findings.
-- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
+#### Week X - Holiday Break (24-28 December)
 
-Be sure to rehearse and time your presentation before class.
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| All Day | NO CLASS | NO CLASS | NO CLASS | NO CLASS | NO CLASS |
+|Submission||||||
 
 ---
 
-## Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
+### Everything below this point is subject to change.
 
-**Scores will be out of 27 points based on the 9 items in the rubric.** <br>
-*3 points per section*<br>
+---
 
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
-| **1** | *Project close to meeting expectations; many minor issues or a few major issues.* |
-| **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
-| **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
+#### Week 7 - Correlated Data (31 December 2018 - 4 January 2019)
 
-### The Data Science Process
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |NO CLASS | NO CLASS| Capstone Check-In 1/	6.01 Supervised Model Comparison |  | Quiz 4 |
+|Submission||||||
 
-**Problem Statement**
-- Is it clear what the student plans to do?
-- What type of model will be developed?
-- How will success be evaluated?
-- Is the scope of the project appropriate?
-- Is it clear who cares about this or why this is important to investigate?
-- Does the student consider the audience and the primary and secondary stakeholders?
+#### Week 8 - Unsupervised Learning (7-11 January)
 
-**Data Cleaning and EDA**
-- Are missing values imputed appropriately?
-- Are distributions examined and described?
-- Are outliers identified and addressed?
-- Are appropriate summary statistics provided?
-- Are steps taken during data cleaning and EDA framed appropriately?
-- Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  |  | Blog Post 4 |  | Project 4 |
+|Submission||||||
 
-**Preprocessing and Modeling**
-- Are categorical variables one-hot encoded?
-- Does the student investigate or manufacture features with linear relationships to the target?
-- Have the data been scaled appropriately?
-- Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student utilize feature selection to remove noisy or multi-collinear features?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
-- Does the student defend their choice of production model relevant to the data at hand and the problem?
-- Does the student explain how the model works and evaluate its performance successes/downfalls?
+#### Week 9 - Bayesian Statistics (14-18 January)
 
-**Evaluation and Conceptual Understanding**
-- Does the student accurately identify and explain the baseline score?
-- Does the student select and use metrics relevant to the problem objective?
-- Is more than one metric utilized in order to better assess performance?
-- Does the student interpret the results of their model for purposes of inference?
-- Is domain knowledge demonstrated when interpreting results?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  |  | Capstone Milestone 2 |  | Quiz 5 |
+|Submission||||||
 
-**Conclusion and Recommendations**
-- Does the student provide appropriate context to connect individual steps back to the overall project?
-- Is it clear how the final recommendations were reached?
-- Are the conclusions/recommendations clearly stated?
-- Does the conclusion answer the original problem statement?
-- Does the student address how findings of this research can be applied for the benefit of stakeholders?
-- Are future steps to move the project forward identified?
+#### Week 10 - Deep Learning (21-25 January)
 
-### Organization and Professionalism
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  |  |  |  | Project 5 |
+|Submission||||||
 
-**Project Organization**
-- Are modules imported correctly (using appropriate aliases)?
-- Are data imported/saved using relative paths?
-- Does the README provide a good executive summary of the project?
-- Is markdown formatting used appropriately to structure notebooks?
-- Are there an appropriate amount of comments to support the code?
-- Are files & directories organized correctly?
-- Are there unnecessary files included?
-- Do files and directories have well-structured, appropriate, consistent names?
+#### Week 11 - Big Data & Data Engineering (28 January - 1 February)
 
-**Visualizations**
-- Are sufficient visualizations provided?
-- Do plots accurately demonstrate valid relationships?
-- Are plots labeled properly?
-- Are plots interpreted appropriately?
-- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines | Capstone Milestone 3 |  | Blog Post 5 |  | Quiz 6 |
+| Submission |  |  | |  | |
 
-**Python Syntax and Control Flow**
-- Is care taken to write human readable code?
-- Is the code syntactically correct (no runtime errors)?
-- Does the code generate desired results (logically correct)?
-- Does the code follows general best practices and style guidelines?
-- Are Pandas functions used appropriately?
-- Are `sklearn` methods used appropriately?
+#### Week 12 - Flex Time (4-8 February)
 
-**Presentation**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the presentation building toward a final conclusion?
-- Are the conclusions/recommendations clearly stated?
-- Is the level of technicality appropriate for the intended audience?
-- Is the student substantially over or under time?
-- Does the student appropriately pace their presentation?
-- Does the student deliver their message with clarity and volume?
-- Are appropriate visualizations generated for the intended audience?
-- Are visualizations necessary and useful for supporting conclusions/explaining findings?
+|           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
+|-----------|---------------|---------------|---------------|---------------|---------|
+| Deadlines |  |  |  | Capstone Files/Analysis/ Technical Report|Blog Post 6   |
+| Submission |  |  |  | Capstone Files/Analysis/ Technical Report| |
 
-### REMEMBER:
+#### Week 13 - Capstones & Graduation (11-12 February)
 
-This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
+|           | Monday        | Tuesday        |
+|-----------|---------------|----------------|
+| All Day  | Local Flex Time | Capstone Presentations |
+| Deadlines |  | Capstone Presentations |
+| Submission |  | Capstone Presentations |
+
+
+#### [Capstone Guidelines & Schedule](https://git.generalassemb.ly/DSI-US-6/capstone)
+

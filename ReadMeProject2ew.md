@@ -10,7 +10,10 @@
 #####The goal of this analysis was to determine if housing sale prices could be modeled given a dataset from Iowa Ames. We worked to have the Machine Learning use a Linear Regression to express the relationship of several key factors that are predictive of pricing.(aka. Features). 
 
 ##  Metrics/Evaluation of model:
-##### We evaluated the model using RMSE. The rationale as due to the Kaggle evaluation method uses to test our model. In addition, a lower RMSE score will indicate our model has a better fit. 
+##### We evaluated the model using RMSE. The rationale as due to the Kaggle evaluation method uses to test our model. In addition, a lower RMSE score will indicate our model has a better fit. I've also scored based on R2 score to see how the models will fit to itself to get a general understanding.
+
+## Regularization:
+##### Intially tried a ridge regression under the assumption there was a high level of multicolinarity and multiple imposing factors. However, when trying an Elsatic Net CV analysis the model suggested a Lasso regression would provide a better fit for the model. Once trying it, the lasso optimized the R2 score better with cross validation. 
 
 ## Findings:
 ##### The most correlative features to the Sale Price with positive impact was overall quality, living area quality, gararage area, amount of cars can be parked, total basment sqaure feet, 1st floor square feet, and year built. These findings would indicate that the common precepts of quality and living space have the largest positive impacts on price. Garage size and parkable spaces may be indicative of overall house size and quality.
