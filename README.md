@@ -44,21 +44,21 @@
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | Deadlines |4.01 Classification Model Comparison  | 4.02 Classification Model Evaluation |  |  | Quiz 3 |
-|Submission|[4.01 Model Comparison](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.01%20Model%20Comparison.ipynb)|[4.02 Kidneys](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.02%20CKD.ipynb) ||||
+|Submission|[4.01 Model Comparison](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.01%20Model%20Comparison.ipynb)|[4.02 Kidneys](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/4.02%20CKD.ipynb) |||||
 
 #### Week 6 - Advanced Supervised Learning (17-21 December)
 
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | Deadlines |  |5.01 NLP Lab  | Blog Post 3 |  | Project 3 / 5.02 Scraping Lab|
-|Submission||||||
+|Submission|[Beautiful Soup](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/BeautifulSoup.ipynb) -[Beautiful soup menu](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/DaMenu.csv) |[NLP lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/intro-to-nlp-lab.ipynb)|||[P3 Code](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/WebscrapingP3.ipynb) + [P3 Slides](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/Supplement%20vs%20Nootropic%20Community%20P3.pdf)||
 
 #### Week X - Holiday Break (24-28 December)
 
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | All Day | NO CLASS | NO CLASS | NO CLASS | NO CLASS | NO CLASS |
-|Submission||||||
+|Submission|||||||
 
 ---
 
@@ -71,7 +71,7 @@
 |           | Monday        | Tuesday       | Wednesday     | Thursday      | Friday  |
 |-----------|---------------|---------------|---------------|---------------|---------|
 | Deadlines |NO CLASS | NO CLASS| Capstone Check-In 1/	6.01 Supervised Model Comparison |  | Quiz 4 |
-|Submission||||||
+|Submission|||[6.01 Lab](https://git.generalassemb.ly/ericpmwong/submissions/blob/master/6.01-starter-code.ipynb)|||
 
 #### Week 8 - Unsupervised Learning (7-11 January)
 
